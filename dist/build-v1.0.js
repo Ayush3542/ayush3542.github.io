@@ -5789,7 +5789,7 @@
             name: "contacts",
             component: v.default
         }, {
-            path: "./works",
+            path: "/works",
             name: "works",
             component: g.default
         }, {
@@ -11878,9 +11878,9 @@
                 ref: "form",
                 staticClass: "get-in-touch",
                 attrs: {
-                    method: "post",
+                    method: "POST",
                     novalidate: "true",
-                    action: "mail.php"
+                    action: "https://formsubmit.co/ayushbhatia993@gmail.com"
                 },
                 on: {
                     submit: t.checkForm
