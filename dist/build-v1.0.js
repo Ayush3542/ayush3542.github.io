@@ -5785,11 +5785,11 @@
             name: "process",
             component: p.default
         }, {
-            path: "./contacts/index.html",
+            path: "/contacts",
             name: "contacts",
             component: v.default
         }, {
-            path: "./works/index.html",
+            path: "./works",
             name: "works",
             component: g.default
         }, {
