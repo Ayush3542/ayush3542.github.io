@@ -12574,9 +12574,9 @@
                 staticClass: "copyright cube-title"
             }, [n("p", {
                 staticClass: "copyright__title"
-            }, [t._v("©2020")]), t._v(" "), n("p", {
+            }, [t._v("©2021")]), t._v(" "), n("p", {
                 staticClass: "copyright__text"
-            }, [t._v("Designed and Developed by Ayush")])]), t._v(" "), n("ul", {
+            }, [t._v("Designed and Developed by Ayush Bhatia")])]), t._v(" "), n("ul", {
                 staticClass: "social-icons"
             }, [n("li", {
                 staticClass: "social-icons__item",
@@ -12590,20 +12590,20 @@
             })], 1), t._v(" "), n("li", {
                 staticClass: "social-icons__item",
                 attrs: {
-                    "data-social-name": "behance"
+                    "data-social-name": "twitter"
                 }
             }, [n("icon", {
                 attrs: {
-                    icon: "ico-behance"
+                    icon: "ico-twitter"
                 }
             })], 1), t._v(" "), n("li", {
                 staticClass: "social-icons__item",
                 attrs: {
-                    "data-social-name": "linkedin"
+                    "data-social-name": "twitter"
                 }
             }, [n("icon", {
                 attrs: {
-                    icon: "ico-linkedin"
+                    icon: "ico-twitter"
                 }
             })], 1), t._v(" "), n("li", {
                 staticClass: "social-icons__item",
@@ -12725,7 +12725,7 @@
             }, [n("li", {
                 staticClass: "social__item hover-link",
                 attrs: {
-                    "data-social-name": "dribbble"
+                    "data-social-name": "twitter"
                 },
                 on: {
                     mouseenter: t.socialShow,
@@ -12736,10 +12736,10 @@
                     target: "_blank",
                     href: "https://dribbble.com/gruev"
                 }
-            }, [t._v("Db")])]), t._v(" "), n("li", {
+            }, [t._v("Tw")])]), t._v(" "), n("li", {
                 staticClass: "social__item hover-link",
                 attrs: {
-                    "data-social-name": "behance"
+                    "data-social-name": "facebook"
                 },
                 on: {
                     mouseenter: t.socialShow,
@@ -12748,9 +12748,9 @@
             }, [n("a", {
                 attrs: {
                     target: "_blank",
-                    href: "https://www.behance.net/gruev"
+                    href: "https://www.facebook.com/ayush.bhatia.5439"
                 }
-            }, [t._v("Be")])]), t._v(" "), n("li", {
+            }, [t._v("Fb")])]), t._v(" "), n("li", {
                 staticClass: "social__item hover-link",
                 attrs: {
                     "data-social-name": "instagram"
@@ -12762,12 +12762,12 @@
             }, [n("a", {
                 attrs: {
                     target: "_blank",
-                    href: "http://instagram.com/gruev"
+                    href: "https://www.instagram.com/__thebigbull/"
                 }
             }, [t._v("Inst")])]), t._v(" "), n("li", {
                 staticClass: "social__item hover-link",
                 attrs: {
-                    "data-social-name": "linkedin"
+                    "data-social-name": "github"
                 },
                 on: {
                     mouseenter: t.socialShow,
@@ -12778,7 +12778,7 @@
                     target: "_blank",
                     href: "https://www.linkedin.com/in/vgruev/"
                 }
-            }, [t._v("In")])])])])])]), t._v(" "), n("ul", {
+            }, [t._v("Gt")])])])])])]), t._v(" "), n("ul", {
                 staticClass: "awwards"
             }, [n("li", {
                 staticClass: "awwards__item hover-link"
