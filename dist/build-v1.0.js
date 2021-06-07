@@ -8142,7 +8142,7 @@
         }
     }).$mount("#app");
     console.log("%c%s", "color: #EEBECE; background: #060807; font-size: 24px; padding: 20px 30px", "Hey, do you have questions? run `getEmail()`"), window.getEmail = function() {
-        console.log("%c%s", "color: #EEBECE; background: blue; font-size: 24px; padding: 20px 30px", "You welcome ;) gruev.vladimir@gmail.com")
+        console.log("%c%s", "color: #EEBECE; background: blue; font-size: 24px; padding: 20px 30px", "You welcome ;) ayushbhatia993@gmail.com")
     }
 }, function(t, e, n) {
     n(48), n(131), t.exports = n(7).Array.from
@@ -12144,9 +12144,9 @@
                 staticClass: "mailto"
             }, [t._v("Hate forms? Drop a message to "), n("a", {
                 attrs: {
-                    href: "mailto:vladimir@gruev.space"
+                    href: "mailto:ayushbhatia993@gmail.com"
                 }
-            }, [t._v("vladimir@gruev.space")])])])])])], 1)
+            }, [t._v("ayushbhatia993@gmail.com")])])])])])], 1)
         },
         staticRenderFns: []
     }
@@ -12814,7 +12814,7 @@
                 staticClass: "cube__inner"
             }, [n("h1", {
                 staticClass: "cube-title weirdy-chars"
-            }, [t._v("Hi, I'm Vladimir UI/UX designer focused on web applications and product pages.")])])])
+            }, [t._v("Hi, I'm Ayush software programmer focused on web pages and applications.")])])])
         }, function() {
             var t = this,
                 e = t.$createElement,
@@ -12825,7 +12825,7 @@
                 staticClass: "cube__inner"
             }, [n("h6", {
                 staticClass: "cube-title"
-            }, [t._v("I am currently working as a lead designer at Heartbeat, helping digital products enhance design and processes.")])])])
+            }, [t._v("I am passionate to porgramming and love to design web pages and applications to enhance design and processes.")])])])
         }, function() {
             var t = this,
                 e = t.$createElement,
@@ -12836,7 +12836,7 @@
                 staticClass: "cube__inner"
             }, [n("h6", {
                 staticClass: "title-h1 cube-title"
-            }, [t._v("recent stuff")])])])
+            }, [t._v("Recent stuff")])])])
         }, function() {
             var t = this,
                 e = t.$createElement,
@@ -12847,7 +12847,7 @@
                 staticClass: "cube__inner"
             }, [n("h6", {
                 staticClass: "title-h1 cube-title"
-            }, [t._v("get in touch")])])])
+            }, [t._v("Get in touch")])])])
         }]
     }
 }, function(t, e) {
@@ -12890,13 +12890,13 @@
                     "data-hover-path": "/img/story/ava-gruev.jpg",
                     "data-hover-size": "720x478"
                 }
-            }, [t._v("Vladimir")]), t._v(". I’m a UI/UX designer from "), n("span", {
+            }, [t._v("Ayush")]), t._v(". I’m a UI/UX designer from "), n("span", {
                 staticClass: "hover-link hover-video c-rl",
                 attrs: {
-                    "data-hover-path": "/img/story/odessa",
+                    "data-hover-path": "/img/story/Delhi.gif",
                     "data-hover-size": "1280x720"
                 }
-            }, [t._v("Odessa")]), t._v(", Ukraine focused on web/mobile app and product page design.")])]), t._v(" "), n("div", {
+            }, [t._v("Delhi")]), t._v(", Ukraine focused on web/mobile app and product page design.")])]), t._v(" "), n("div", {
                 staticClass: "video-box"
             }, [n("svg", {
                 staticClass: "video-box__font",
