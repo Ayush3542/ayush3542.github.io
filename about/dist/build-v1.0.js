@@ -12891,7 +12891,7 @@
                     "data-hover-size": "720x478"
                 }
             }, [t._v("Ayush")]), t._v(". I’m a UI/UX designer from "), n("span", {
-                staticClass: "hover-link hover-video c-rl",
+                staticClass: "hover-link hover-photo c-rl",
                 attrs: {
                     "data-hover-path": "/img/story/Delhi.gif",
                     "data-hover-size": "1280x720"
