@@ -5773,11 +5773,11 @@
         refreshOnceOnNavigation: !0
     }), e.default = new s.default({
         routes: [{
-            path: "./index.html",
+            path: "/",
             name: "home",
             component: l.default
         }, {
-            path: "../about/index.html",
+            path: "/about",
             name: "about",
             component: f.default
         }, {
@@ -5785,11 +5785,11 @@
             name: "process",
             component: p.default
         }, {
-            path: "./index.html",
+            path: "/contacts",
             name: "contacts",
             component: v.default
         }, {
-            path: "../works/index.html",
+            path: "/works",
             name: "works",
             component: g.default
         }, {
@@ -6768,7 +6768,7 @@
             Custcursor: i.default
         },
         metaInfo: {
-            title: "Vladimir Gruev - UI/UX Designer",
+            title: "Ayush Bhatia | Software Programmer",
             titleTemplate: "%s",
             meta: [{
                 name: "description",
@@ -7937,7 +7937,7 @@
             Accordion: p.default
         },
         metaInfo: {
-            title: "Vladimir Gruev",
+            title: "Ayush Bhatia",
             titleTemplate: "%s | Process"
         },
         mounted: function() {
@@ -8142,7 +8142,7 @@
         }
     }).$mount("#app");
     console.log("%c%s", "color: #EEBECE; background: #060807; font-size: 24px; padding: 20px 30px", "Hey, do you have questions? run `getEmail()`"), window.getEmail = function() {
-        console.log("%c%s", "color: #EEBECE; background: blue; font-size: 24px; padding: 20px 30px", "You welcome ;) gruev.vladimir@gmail.com")
+        console.log("%c%s", "color: #EEBECE; background: blue; font-size: 24px; padding: 20px 30px", "You welcome ;) ayushbhatia993@gmail.com")
     }
 }, function(t, e, n) {
     n(48), n(131), t.exports = n(7).Array.from
@@ -11516,9 +11516,7 @@
         },
         staticRenderFns: []
     }
-}, 
-
-function(t, e) {
+}, function(t, e) {
     t.exports = {
         render: function() {
             var t = this,
@@ -11543,85 +11541,142 @@ function(t, e) {
                 e = t.$createElement,
                 n = t._self._c || e;
             return n("ul", {
-                staticClass: "menu-404"
+                staticClass: "navigation"
             }, [n("li", {
-                staticClass: "menu-404__item hover-link"
-            }, [n("a", {
-                attrs: {
-                    href: "../index.html"
-                }
-            }, [t._v("index")])]), t._v(" "), n("li", {
-                staticClass: "menu-404__item hover-link"
-            }, [n("a", {
-                attrs: {
-                    href: "../about/index.html"
-                }
-            }, [t._v("about")])]), t._v(" "), n("li", {
-                staticClass: "menu-404__item hover-link"
+                staticClass: "inner-nav"
             }, [n("a", {
                 attrs: {
                     href: "./index.html"
                 }
-            }, [t._v("contact")])]), t._v(" "), n("li", {
-                staticClass: "menu-404__item hover-link"
+            }, [t._v("index")])]), t._v(" "), n("li", {
+                staticClass: "menu__item left"
+                
             }, [n("a", {
+                staticClass: "menu__item-inner hover-link",
                 attrs: {
-                    href: "../works/index.html"
+                    href: "./about/index.html"
                 }
-            }, [t._v("works")])])])
+            }, 
+
+            [t._v("About")])]), t._v(" "), n("li", {
+                
+                staticClass: "menu__item top"
+
+            }, [n("a", {
+                staticClass: "menu__item-inner hover-link",
+
+            
+                attrs: {
+                    href: "./Contact_Form/index.html"
+                },
+                on: {
+                    mouseenter: t.menuHover,
+                    click: t.typeOfPageTrs
+                }
+            },
+            //  [n("span", {
+            //     // staticClass: "menu__ico"
+            // }, [n("icon", {
+            //     attrs: {
+            //         icon: "ico-link-arrow"
+            //     }
+            // })], 1), t._v(" "), n("span", {
+            //     // staticClass: "menu__title"
+            // },
+
+
+            [t._v("Contact")])]), t._v(" "), n("li", {
+                staticClass: "menu__item right"
+
+            }, 
+
+
+            [
+            n("span", {
+                staticClass: "menu__ico"
+            }, [n("icon", {
+                attrs: {
+                    icon: "ico-link-arrow"
+                }
+            })], 1), t._v(" ")
+
+            ,n("a", {
+            	staticClass:"menu__item-inner hover-link",
+
+
+
+                attrs: {
+                    href: "./works/index.html"
+                }
+
+
+
+            }, [t._v("Works")])])])
+
+
+
         }, function() {
             var t = this,
                 e = t.$createElement,
                 n = t._self._c || e;
             return n("div", {
-                staticClass: "cube-pnf__face front"
+                staticClass: "cube__face front"
             }, [n("div", {
-                staticClass: "cube-pnf__inner"
+                staticClass: "cube__inner"
             }, [n("h1", {
-                staticClass: "title-h2 weirdy-chars"
-            }, [t._v("page does not exist")])])])
+                staticClass: "cube-title weirdy-chars"
+            }, [t._v("Hi I am Ayush Bhatia")])])])
         }, function() {
             var t = this,
                 e = t.$createElement,
                 n = t._self._c || e;
             return n("div", {
-                staticClass: "cube-pnf__face right"
+                staticClass: "cube__face right"
             }, [n("div", {
-                staticClass: "cube-pnf__inner"
+                staticClass: "cube__inner"
             }, [n("h2", {
-                staticClass: "hero-h1"
-            }, [t._v("404")])])])
+                staticClass: "cube-title"
+            }, [t._v("I am passionate to programming and I love to code.")])])])
         }, function() {
             var t = this,
                 e = t.$createElement,
                 n = t._self._c || e;
             return n("div", {
-                staticClass: "cube-pnf__face left"
+                staticClass: "cube__face left"
             }, [n("div", {
-                staticClass: "cube-pnf__inner"
+                staticClass: "cube__inner"
             }, [n("h2", {
-                staticClass: "hero-h1"
-            }, [t._v("404")])])])
+                staticClass: "cube-title"
+            }, [t._v("Recent Stuff")])])])
         }, function() {
             var t = this,
                 e = t.$createElement,
                 n = t._self._c || e;
             return n("div", {
-                staticClass: "cube-pnf__face top"
+                staticClass: "cube__face top"
             }, [n("div", {
-                staticClass: "cube-pnf__inner"
-            }, [n("h4", {}, [t._v("let's get out of here")])])])
+                staticClass: "cube__inner"
+                }, [n("div", {
+                ref: "copyright",
+                staticClass: "copyright cube-title"
+            }, [n("p", {
+                staticClass: "copyright__title"
+                }, [t._v("©2021")]), t._v(" "), n("p", {
+                staticClass: "copyright__text"
+            
+            }, [n("h4", {}, [t._v("Designed and Developed By Ayush Bhatia")])])])])])
+
         }, function() {
             var t = this,
                 e = t.$createElement,
                 n = t._self._c || e;
             return n("div", {
-                staticClass: "cube-pnf__face bottom"
+                staticClass: "cube__face bottom"
             }, [n("div", {
-                staticClass: "cube-pnf__inner"
+                staticClass: "cube__inner"
             }, [n("h4", {
-                staticClass: "title-h2"
-            }, [t._v("you're going the right way")])])])
+                staticClass: "cube-title"
+            }, [t._v("Get In Touch")])])])
         }, function() {
             var t = this,
                 e = t.$createElement,
@@ -11787,9 +11842,7 @@ function(t, e) {
             })])])
         }]
     }
-}, 
-
-function(t, e) {
+}, function(t, e) {
     t.exports = {
         render: function() {
             var t = this,
@@ -11825,9 +11878,9 @@ function(t, e) {
                 ref: "form",
                 staticClass: "get-in-touch",
                 attrs: {
-                    method: "post",
+                    method: "POST",
                     novalidate: "true",
-                    action: "mail.php"
+                    action: "https://formsubmit.co/ayushbhatia993@gmail.com"
                 },
                 on: {
                     submit: t.checkForm
@@ -12091,9 +12144,9 @@ function(t, e) {
                 staticClass: "mailto"
             }, [t._v("Hate forms? Drop a message to "), n("a", {
                 attrs: {
-                    href: "mailto:vladimir@gruev.space"
+                    href: "mailto:ayushbhatia993@gmail.com"
                 }
-            }, [t._v("vladimir@gruev.space")])])])])])], 1)
+            }, [t._v("ayushbhatia993@gmail.com")])])])])])], 1)
         },
         staticRenderFns: []
     }
@@ -12521,9 +12574,9 @@ function(t, e) {
                 staticClass: "copyright cube-title"
             }, [n("p", {
                 staticClass: "copyright__title"
-            }, [t._v("©2020")]), t._v(" "), n("p", {
+            }, [t._v("©2021")]), t._v(" "), n("p", {
                 staticClass: "copyright__text"
-            }, [t._v("designed and developed by Gruev")])]), t._v(" "), n("ul", {
+            }, [t._v("Designed and Developed by Ayush Bhatia")])]), t._v(" "), n("ul", {
                 staticClass: "social-icons"
             }, [n("li", {
                 staticClass: "social-icons__item",
@@ -12537,20 +12590,20 @@ function(t, e) {
             })], 1), t._v(" "), n("li", {
                 staticClass: "social-icons__item",
                 attrs: {
-                    "data-social-name": "behance"
+                    "data-social-name": "twitter"
                 }
             }, [n("icon", {
                 attrs: {
-                    icon: "ico-behance"
+                    icon: "ico-twitter"
                 }
             })], 1), t._v(" "), n("li", {
                 staticClass: "social-icons__item",
                 attrs: {
-                    "data-social-name": "linkedin"
+                    "data-social-name": "twitter"
                 }
             }, [n("icon", {
                 attrs: {
-                    icon: "ico-linkedin"
+                    icon: "ico-twitter"
                 }
             })], 1), t._v(" "), n("li", {
                 staticClass: "social-icons__item",
@@ -12672,7 +12725,7 @@ function(t, e) {
             }, [n("li", {
                 staticClass: "social__item hover-link",
                 attrs: {
-                    "data-social-name": "dribbble"
+                    "data-social-name": "twitter"
                 },
                 on: {
                     mouseenter: t.socialShow,
@@ -12683,10 +12736,10 @@ function(t, e) {
                     target: "_blank",
                     href: "https://dribbble.com/gruev"
                 }
-            }, [t._v("Db")])]), t._v(" "), n("li", {
+            }, [t._v("Tw")])]), t._v(" "), n("li", {
                 staticClass: "social__item hover-link",
                 attrs: {
-                    "data-social-name": "behance"
+                    "data-social-name": "facebook"
                 },
                 on: {
                     mouseenter: t.socialShow,
@@ -12695,9 +12748,9 @@ function(t, e) {
             }, [n("a", {
                 attrs: {
                     target: "_blank",
-                    href: "https://www.behance.net/gruev"
+                    href: "https://www.facebook.com/ayush.bhatia.5439"
                 }
-            }, [t._v("Be")])]), t._v(" "), n("li", {
+            }, [t._v("Fb")])]), t._v(" "), n("li", {
                 staticClass: "social__item hover-link",
                 attrs: {
                     "data-social-name": "instagram"
@@ -12709,12 +12762,12 @@ function(t, e) {
             }, [n("a", {
                 attrs: {
                     target: "_blank",
-                    href: "http://instagram.com/gruev"
+                    href: "https://www.instagram.com/__thebigbull/"
                 }
             }, [t._v("Inst")])]), t._v(" "), n("li", {
                 staticClass: "social__item hover-link",
                 attrs: {
-                    "data-social-name": "linkedin"
+                    "data-social-name": "github"
                 },
                 on: {
                     mouseenter: t.socialShow,
@@ -12725,7 +12778,7 @@ function(t, e) {
                     target: "_blank",
                     href: "https://www.linkedin.com/in/vgruev/"
                 }
-            }, [t._v("In")])])])])])]), t._v(" "), n("ul", {
+            }, [t._v("Gt")])])])])])]), t._v(" "), n("ul", {
                 staticClass: "awwards"
             }, [n("li", {
                 staticClass: "awwards__item hover-link"
@@ -12761,7 +12814,7 @@ function(t, e) {
                 staticClass: "cube__inner"
             }, [n("h1", {
                 staticClass: "cube-title weirdy-chars"
-            }, [t._v("Hi, I'm Vladimir UI/UX designer focused on web applications and product pages.")])])])
+            }, [t._v("Hi, I'm Ayush software programmer focused on web pages and applications.")])])])
         }, function() {
             var t = this,
                 e = t.$createElement,
@@ -12772,7 +12825,7 @@ function(t, e) {
                 staticClass: "cube__inner"
             }, [n("h6", {
                 staticClass: "cube-title"
-            }, [t._v("I am currently working as a lead designer at Heartbeat, helping digital products enhance design and processes.")])])])
+            }, [t._v("I am passionate to porgramming and love to design web pages and applications to enhance design and processes.")])])])
         }, function() {
             var t = this,
                 e = t.$createElement,
@@ -12783,7 +12836,7 @@ function(t, e) {
                 staticClass: "cube__inner"
             }, [n("h6", {
                 staticClass: "title-h1 cube-title"
-            }, [t._v("recent stuff")])])])
+            }, [t._v("Recent stuff")])])])
         }, function() {
             var t = this,
                 e = t.$createElement,
@@ -12794,7 +12847,7 @@ function(t, e) {
                 staticClass: "cube__inner"
             }, [n("h6", {
                 staticClass: "title-h1 cube-title"
-            }, [t._v("get in touch")])])])
+            }, [t._v("Get in touch")])])])
         }]
     }
 }, function(t, e) {
@@ -12837,13 +12890,13 @@ function(t, e) {
                     "data-hover-path": "/img/story/ava-gruev.jpg",
                     "data-hover-size": "720x478"
                 }
-            }, [t._v("Vladimir")]), t._v(". I’m a UI/UX designer from "), n("span", {
+            }, [t._v("Ayush")]), t._v(". I’m a UI/UX designer from "), n("span", {
                 staticClass: "hover-link hover-video c-rl",
                 attrs: {
-                    "data-hover-path": "/img/story/odessa",
+                    "data-hover-path": "/img/story/Delhi.gif",
                     "data-hover-size": "1280x720"
                 }
-            }, [t._v("Odessa")]), t._v(", Ukraine focused on web/mobile app and product page design.")])]), t._v(" "), n("div", {
+            }, [t._v("Delhi")]), t._v(", Ukraine focused on web/mobile app and product page design.")])]), t._v(" "), n("div", {
                 staticClass: "video-box"
             }, [n("svg", {
                 staticClass: "video-box__font",
