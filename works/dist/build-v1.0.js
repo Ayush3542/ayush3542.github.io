@@ -10406,13 +10406,13 @@
                 staticClass: "hover-link social-link",
                 attrs: {
                     target: "_blank",
-                    href: "https://dribbble.com/gruev"
+                    href: "https://github.com/Ayush3542"
                 },
                 on: {
                     mouseenter: t.socialEnter,
                     mouseleave: t.socialLeave
                 }
-            }, [t._v("dribbble"), n("icon", {
+            }, [t._v("github"), n("icon", {
                 staticClass: "char",
                 attrs: {
                     icon: "ico-btn-link"
@@ -10421,13 +10421,13 @@
                 staticClass: "hover-link social-link",
                 attrs: {
                     target: "_blank",
-                    href: "https://www.behance.net/gruev"
+                    href: "https://www.instagram.com/__thebigbull/"
                 },
                 on: {
                     mouseenter: t.socialEnter,
                     mouseleave: t.socialLeave
                 }
-            }, [t._v("behance"), n("icon", {
+            }, [t._v("instagram"), n("icon", {
                 staticClass: "char",
                 attrs: {
                     icon: "ico-btn-link"
@@ -10436,13 +10436,13 @@
                 staticClass: "hover-link social-link",
                 attrs: {
                     target: "_blank",
-                    href: "https://www.behance.net/gallery/110794773/Visual-identity-homebaseio"
+                    href: "https://piyush2021.github.io/"
                 },
                 on: {
                     mouseenter: t.socialEnter,
                     mouseleave: t.socialLeave
                 }
-            }, [t._v(" latest case"), n("icon", {
+            }, [t._v(" latest collaboration"), n("icon", {
                 staticClass: "char",
                 attrs: {
                     icon: "ico-btn-link"
@@ -10468,7 +10468,7 @@
                 }],
                 staticClass: "works-grid__item-inner hover-link",
                 attrs: {
-                    href: "https://www.behance.net/gallery/110794773/Visual-identity-homebaseio",
+                    href: "https://www.piyush2021.github.io",
                     target: "_blank",
                     "data-link-icon": "ico-m-behance"
                 }
@@ -11601,7 +11601,7 @@
             })], 1), t._v(" ")
 
             ,n("a", {
-            	staticClass:"menu__item-inner hover-link",
+                staticClass:"menu__item-inner hover-link",
 
 
 
@@ -12725,7 +12725,7 @@
             }, [n("li", {
                 staticClass: "social__item hover-link",
                 attrs: {
-                    "data-social-name": "twitter"
+                    "data-social-name": "dribbble"
                 },
                 on: {
                     mouseenter: t.socialShow,
@@ -12734,12 +12734,12 @@
             }, [n("a", {
                 attrs: {
                     target: "_blank",
-                    href: "https://dribbble.com/gruev"
+                    href: "https://twitter.com/_Ayush_Bhatia_/"
                 }
             }, [t._v("Tw")])]), t._v(" "), n("li", {
                 staticClass: "social__item hover-link",
                 attrs: {
-                    "data-social-name": "facebook"
+                    "data-social-name": "behance"
                 },
                 on: {
                     mouseenter: t.socialShow,
@@ -12767,7 +12767,7 @@
             }, [t._v("Inst")])]), t._v(" "), n("li", {
                 staticClass: "social__item hover-link",
                 attrs: {
-                    "data-social-name": "github"
+                    "data-social-name": "linkedin"
                 },
                 on: {
                     mouseenter: t.socialShow,
@@ -12776,31 +12776,31 @@
             }, [n("a", {
                 attrs: {
                     target: "_blank",
-                    href: "https://www.linkedin.com/in/vgruev/"
+                    href: "https://www.github.com/Ayush3542"
                 }
             }, [t._v("Gt")])])])])])]), t._v(" "), n("ul", {
-                staticClass: "awwards"
+                staticClass: ""
             }, [n("li", {
-                staticClass: "awwards__item hover-link"
+                staticClass: ""
             }, [n("a", {
                 attrs: {
-                    target: "_blank",
-                    href: "https://www.cssdesignawards.com/sites/vladimir-gruev-ui-ux-designer/35829/"
+                    target: "",
+                    href: ""
                 }
             }, [n("Icon", {
                 attrs: {
-                    icon: "ico-CSSDA"
+                    icon: ""
                 }
             })], 1)]), t._v(" "), n("li", {
-                staticClass: "awwards__item hover-link"
+                staticClass: ""
             }, [n("a", {
                 attrs: {
-                    target: "_blank",
-                    href: "https://www.awwwards.com/sites/personal-page-vladimir-gruev"
+                    target: "",
+                    href: ""
                 }
-            }, [n("Icon", {
+            }, [n("", {
                 attrs: {
-                    icon: "ico-SOTD"
+                    icon: ""
                 }
             })], 1)])])], 1)
         },
@@ -12836,7 +12836,7 @@
                 staticClass: "cube__inner"
             }, [n("h6", {
                 staticClass: "title-h1 cube-title"
-            }, [t._v("Recent stuff")])])])
+            }, [t._v("recent stuff")])])])
         }, function() {
             var t = this,
                 e = t.$createElement,
@@ -12890,13 +12890,13 @@
                     "data-hover-path": "/img/story/ava-gruev.jpg",
                     "data-hover-size": "720x478"
                 }
-            }, [t._v("Ayush")]), t._v(". I’m a UI/UX designer from "), n("span", {
-                staticClass: "hover-link hover-video c-rl",
+            }, [t._v("Ayush")]), t._v(". I’m a Software Progammer from "), n("span", {
+                staticClass: "hover-link hover-photo c-rl",
                 attrs: {
                     "data-hover-path": "/img/story/Delhi.gif",
                     "data-hover-size": "1280x720"
                 }
-            }, [t._v("Delhi")]), t._v(", Ukraine focused on web/mobile app and product page design.")])]), t._v(" "), n("div", {
+            }, [t._v("Delhi")]), t._v(", India focused on web and product page design.")])]), t._v(" "), n("div", {
                 staticClass: "video-box"
             }, [n("svg", {
                 staticClass: "video-box__font",
@@ -13025,7 +13025,7 @@
                 staticClass: "container"
             }, [n("p", {
                 staticClass: "parag-big"
-            }, [t._v("I am passionate about creating products with a strong visual identity. It helps digital brands and companies move to the next level and increase user engagement."), n("br"), n("br"), t._v("I am also building design systems tailored to products’ needs. Working together with team members to get all the design processes in place. Mostly focused on ⓕintech, Ⓔdtech, and ⓈaaS tools.")])]), t._v(" "), n("div", {
+            }, [t._v("I am passionate about creating products with a strong visual identity."), n("br"), n("br"), t._v("I am also building design pages tailored to products’ needs.")])]), t._v(" "), n("div", {
                 staticClass: "container"
             }, [n("h2", {
                 staticClass: "extra-h1 c-rl parag-1-2 principles-title"
@@ -13598,7 +13598,7 @@
                 }
             })])])])]), t._v(" "), n("div", {
                 staticClass: "col-xs-12 col-md-5 col-md-offset-1"
-            }, [n("p", [t._v("My knowledge of front-end developing helps me create user interfaces and website experiences that not only look good but are also easy to implement. Hey devs, we can make each other’s lives easier.")])])]), t._v(" "), n("h2", {
+            }, [n("p", [t._v("My knowledge of front-end/back-end developing helps me create user interfaces and website experiences that not only look good but are also easy to implement. Hey devs, we can make each other’s lives easier.")])])]), t._v(" "), n("h2", {
                 staticClass: "extra-h1 c-rl parag-1-2 principles-title"
             }, [t._v("prin—"), n("br"), t._v("ciples")]), t._v(" "), n("div", {
                 staticClass: "row principles"
@@ -13912,31 +13912,31 @@
                 ref: "link",
                 attrs: {
                     target: "_blank",
-                    href: "https://dribbble.com/gruev",
+                    href: "https://twitter.com/_Ayush_Bhatia_/",
                     "data-splitting": ""
                 },
                 on: {
                     mouseenter: t.socialEnter,
                     mouseleave: t.socialLeave
                 }
-            }, [t._v("Dribbble")])]), t._v(" "), n("li", {
+            }, [t._v("Twitter")])]), t._v(" "), n("li", {
                 staticClass: "footer-social__item"
             }, [n("a", {
                 attrs: {
                     target: "_blank",
-                    href: "https://www.behance.net/gruev",
+                    href: "https://www.facebook.com/ayush.bhatia.5439/",
                     "data-splitting": ""
                 },
                 on: {
                     mouseenter: t.socialEnter,
                     mouseleave: t.socialLeave
                 }
-            }, [t._v("Behance")])]), t._v(" "), n("li", {
+            }, [t._v("Facebook")])]), t._v(" "), n("li", {
                 staticClass: "footer-social__item"
             }, [n("a", {
                 attrs: {
                     target: "_blank",
-                    href: "https://www.instagram.com/gruev/",
+                    href: "https://www.instagram.com/__thebigbull/",
                     "data-splitting": ""
                 },
                 on: {
@@ -13948,14 +13948,14 @@
             }, [n("a", {
                 attrs: {
                     target: "_blank",
-                    href: "https://www.linkedin.com/in/vgruev/",
+                    href: "https://www.github.com/Ayush3542",
                     "data-splitting": ""
                 },
                 on: {
                     mouseenter: t.socialEnter,
                     mouseleave: t.socialLeave
                 }
-            }, [t._v("LinkedIn")])])])])
+            }, [t._v("Github")])])])])
         },
         staticRenderFns: []
     }
