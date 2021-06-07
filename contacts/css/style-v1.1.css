@@ -932,7 +932,7 @@ a {
     background-color: #060807; }
   .inner-nav.works {
     background-image: url("../img/things/works-text.svg");
-    background-color: #060807; }
+    background-color: white; }
   .inner-nav__side {
     overflow: hidden; }
   .inner-nav__title {
@@ -1011,7 +1011,9 @@ a {
           font-size: 3.6rem; } }
     .cube__face.right {
       --m: 1;
-      background-color: #FFF7ED;
+      background-size: contain;
+      background-image: url("../img/projects/Ayush-Bhatia-Portfolio-Index.gif"); }
+      background-color: ;
       color: #060807;
       align-items: center; }
       @media (min-width: 0px) and (max-width: 767px) {
@@ -1043,9 +1045,9 @@ a {
           margin: 0 6%; }
     .cube__face.left {
       --m: 3;
-      background-color: blue;
+      background-color: ;
       background-size: contain;
-      background-image: url("../img/things/shapes-bg-4.svg"); }
+      background-image: url("../img/projects/ezgif.com-gif-maker.gif"); }
       .cube__face.left .cube__inner {
         display: flex;
         height: 100%;
@@ -1072,7 +1074,7 @@ a {
     .cube__face.bottom {
       --m: -1;
       background-color: #060807;
-      background-image: url("../img/things/shapes-bg-1.svg");
+      background-image: url("../img/projects/AyushBhatia_Emailer.gif");
       background-size: contain; }
       .cube__face.bottom .cube__inner {
         display: flex;
@@ -1101,7 +1103,7 @@ a {
   height: 100vh;
   background-color: #060807; }
 
-.i-lines {
+/*.i-lines {
   overflow: hidden;
   position: absolute;
   display: flex;
@@ -1124,7 +1126,7 @@ a {
   background-color: #1F6246;
   width: 2px;
   height: 48px; }
-
+*/
 .menu-404 {
   position: relative;
   display: flex;
@@ -1197,7 +1199,7 @@ a {
     .cube-pnf__face.left {
       --m: 3;
       background-color: #060807;
-      background-image: url("../img/things/pnf-wtf.gif");
+      background-image: url("../img/things/shapes-bg-4.svg");
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat; }
@@ -1738,14 +1740,15 @@ a {
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  background-color: #EEBECE; }
+  background-color: pink; }
 
 .page {
   display: flex;
   flex: 1;
   position: relative;
   width: 100%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  background-color: #EEBECE; }
   .page.about {
     background-color: #060807; }
   .page.process {
