@@ -932,7 +932,7 @@ a {
     background-color: #060807; }
   .inner-nav.works {
     background-image: url("../img/things/works-text.svg");
-    background-color: #060807; }
+    background-color: white; }
   .inner-nav__side {
     overflow: hidden; }
   .inner-nav__title {
@@ -1197,7 +1197,7 @@ a {
     .cube-pnf__face.left {
       --m: 3;
       background-color: #060807;
-      background-image: url("../img/things/pnf-wtf.gif");
+      background-image: url("../img/things/shapes-bg-4.svg");
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat; }
@@ -1738,14 +1738,15 @@ a {
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  background-color: cyan; }
+  background-color: #EEBECE; }
 
 .page {
   display: flex;
   flex: 1;
   position: relative;
   width: 100%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  background-color: #EEBECE; }
   .page.about {
     background-color: #060807; }
   .page.process {
