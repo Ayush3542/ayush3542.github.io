@@ -10622,7 +10622,7 @@
                 staticClass: "lazyload",
                 attrs: {
                     src: "img/1px.gif",
-                    "data-src": "img/works/exploration-product-page.png",
+                    "data-src": "img/works/exploration-product-page.jpeg",
                     alt: ""
                 }
             })]), t._v(" "), n("p", {
@@ -10798,7 +10798,7 @@
                 staticClass: "lazyload",
                 attrs: {
                     src: "img/1px.gif",
-                    "data-src": "img/works/chain-home-page.png",
+                    "data-src": "img/works/chain-home-page.jpeg",
                     alt: ""
                 }
             })]), t._v(" "), n("p", {
@@ -10974,7 +10974,7 @@
                 staticClass: "lazyload",
                 attrs: {
                     src: "img/1px.gif",
-                    "data-src": "img/works/Adversus-Case-Study.png",
+                    "data-src": "img/works/Adversus-Case-Study.jpeg",
                     alt: ""
                 }
             })]), t._v(" "), n("p", {
