@@ -5785,7 +5785,7 @@
             name: "process",
             component: p.default
         }, {
-            path: "/contacts",
+            path: "https://ayush3542.github.io/contacts",
             name: "contacts",
             component: v.default
         }, {
