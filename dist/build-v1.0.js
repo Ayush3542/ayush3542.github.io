@@ -11878,9 +11878,10 @@
                 ref: "form",
                 staticClass: "get-in-touch",
                 attrs: {
-                    method: "POST",
-                    novalidate: "true",
                     action: "https://formsubmit.co/ayushbhatia993@gmail.com"
+                    method: "POST",
+                    target: "_blank",
+                    
                 },
                 on: {
                     submit: t.checkForm
