@@ -6768,7 +6768,7 @@
             Custcursor: i.default
         },
         metaInfo: {
-            title: "Vladimir Gruev - UI/UX Designer",
+            title: "404 | Not Found",
             titleTemplate: "%s",
             meta: [{
                 name: "description",
@@ -11560,7 +11560,7 @@ function(t, e) {
                 staticClass: "menu-404__item hover-link"
             }, [n("a", {
                 attrs: {
-                    href: "./index.html"
+                    href: "https://ayush3542.github.io/contacts"
                 }
             }, [t._v("contact")])]), t._v(" "), n("li", {
                 staticClass: "menu-404__item hover-link"
