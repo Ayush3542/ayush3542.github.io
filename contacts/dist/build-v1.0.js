@@ -11878,9 +11878,9 @@
                 ref: "form",
                 staticClass: "get-in-touch",
                 attrs: {
-                    method: "POST",
+                    method: "post",
                     novalidate: "true",
-                    action: "https://formsubmit.co/ayushbhatia993@gmail.com"
+                    action: "mail.php"
                 },
                 on: {
                     submit: t.checkForm
