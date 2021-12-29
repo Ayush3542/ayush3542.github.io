@@ -5,6 +5,7 @@
             i: r,
             l: !1,
             exports: {}
+            
         };
         return t[r].call(i.exports, i, i.exports, e), i.l = !0, i.exports
     }
@@ -12836,9 +12837,9 @@
                     "data-hover-size": "720x478"
                 }
             }, [t._v("Ayush")]), t._v(". I’m a digital designer from "), n("span", {
-                staticClass: "hover-link hover-video c-rl",
+                staticClass: "hover-link hover-photo c-rl",
                 attrs: {
-                    "data-hover-path": "/img/story/delhi",
+                    "data-hover-path": "/img/story/delhi.gif",
                     "data-hover-size": "1280x720"
                 }
             }, [t._v("Delhi")]), t._v(", India focused on web/mobile app and product page design.")])]), t._v(" "), n("div", {
