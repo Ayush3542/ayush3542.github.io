@@ -10409,13 +10409,13 @@
                 staticClass: "hover-link social-link",
                 attrs: {
                     target: "_blank",
-                    href: "https://dribbble.com/gruev"
+                    href: "https://github.com/Ayush3542"
                 },
                 on: {
                     mouseenter: t.socialEnter,
                     mouseleave: t.socialLeave
                 }
-            }, [t._v("dribbble"), n("icon", {
+            }, [t._v("Github"), n("icon", {
                 staticClass: "char",
                 attrs: {
                     icon: "ico-btn-link"
@@ -10439,13 +10439,13 @@
                 staticClass: "hover-link social-link",
                 attrs: {
                     target: "_blank",
-                    href: "https://www.behance.net/gallery/110794773/Visual-identity-homebaseio"
+                    href: "https://piyush2021.github.io/"
                 },
                 on: {
                     mouseenter: t.socialEnter,
                     mouseleave: t.socialLeave
                 }
-            }, [t._v(" latest case"), n("icon", {
+            }, [t._v(" latest collab"), n("icon", {
                 staticClass: "char",
                 attrs: {
                     icon: "ico-btn-link"
