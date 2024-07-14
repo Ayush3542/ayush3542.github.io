@@ -12708,7 +12708,7 @@
             }, [n("a", {
                 attrs: {
                     target: "_blank",
-                    href: "https://www.instagram.com/_ayush_bhatia_/"
+                    href: "https://www.instagram.com/ayush.sql"
                 }
             }, [t._v("Inst")])]), t._v(" "), n("li", {
                 staticClass: "social__item hover-link",
