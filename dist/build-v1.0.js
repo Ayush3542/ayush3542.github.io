@@ -10424,7 +10424,7 @@
                 staticClass: "hover-link social-link",
                 attrs: {
                     target: "_blank",
-                    href: "https://www.behance.net/gruev"
+                    href: "https://www.behance.net/ayush3542"
                 },
                 on: {
                     mouseenter: t.socialEnter,
@@ -12680,7 +12680,7 @@
             }, [n("a", {
                 attrs: {
                     target: "_blank",
-                    href: "https://dribbble.com/gruev"
+                    href: "https://dribbble.com/ayush3542"
                 }
             }, [t._v("Db")])]), t._v(" "), n("li", {
                 staticClass: "social__item hover-link",
@@ -12694,7 +12694,7 @@
             }, [n("a", {
                 attrs: {
                     target: "_blank",
-                    href: "https://www.behance.net/gruev"
+                    href: "https://www.behance.net/ayush3542"
                 }
             }, [t._v("Be")])]), t._v(" "), n("li", {
                 staticClass: "social__item hover-link",
@@ -13858,7 +13858,7 @@
                 ref: "link",
                 attrs: {
                     target: "_blank",
-                    href: "https://dribbble.com/gruev",
+                    href: "https://dribbble.com/ayush3542",
                     "data-splitting": ""
                 },
                 on: {
@@ -13870,7 +13870,7 @@
             }, [n("a", {
                 attrs: {
                     target: "_blank",
-                    href: "https://www.behance.net/gruev",
+                    href: "https://www.behance.net/ayush3542",
                     "data-splitting": ""
                 },
                 on: {
