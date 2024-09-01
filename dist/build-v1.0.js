@@ -12722,7 +12722,7 @@
             }, [n("a", {
                 attrs: {
                     target: "_blank",
-                    href: "https://www.linkedin.com/in/vgruev/"
+                    href: "https://www.linkedin.com/in/ayush3542/"
                 }
             }, [t._v("In")])])])])])]), t._v(" "), n("ul", {
                 staticClass: "awwards"
@@ -13894,7 +13894,7 @@
             }, [n("a", {
                 attrs: {
                     target: "_blank",
-                    href: "https://www.linkedin.com/in/vgruev/",
+                    href: "https://www.linkedin.com/in/ayush3542/",
                     "data-splitting": ""
                 },
                 on: {
