@@ -12520,7 +12520,7 @@
                 staticClass: "copyright cube-title"
             }, [n("p", {
                 staticClass: "copyright__title"
-            }, [t._v("©2024")]), t._v(" "), n("p", {
+            }, [t._v("©2025")]), t._v(" "), n("p", {
                 staticClass: "copyright__text"
             }, [t._v("designed and developed by Ayush")])]), t._v(" "), n("ul", {
                 staticClass: "social-icons"
